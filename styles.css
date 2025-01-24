@@ -971,9 +971,9 @@ color: #d3d3d3;
   .testimonial-card{
     width: 298px;
     margin-left: -40px;
-    padding: 20px;
+    padding: 40px;
     margin-bottom: 10px;
-    font-size: 24px;
+    font-size: 20px;
     height: 400px;
   }
   .testimonial-content{
