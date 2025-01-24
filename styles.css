@@ -620,34 +620,9 @@ transform: translateY(-3px);
 
 
 /***********************The Footer Sections Ends********************************/
-@media (max-width: 768px) {
-    .logoo {
-      width: 80px; /* Smaller logo on smaller screens */
-    }
-    .image-logo{
-      justify-content: space-between;
-    }
-    .image-logo h3{
-      font-size: 14px;
-    }
-    .image-logo p{
-      font-size: 12px;
-    }
-    .image-logo button{
-      width: 90px;
-      padding: 4px;
-      overflow: hidden;
-      font-size: 11px;
-    }  
-    .image-logo button:hover{
-      background-color:#ff1919;
-      color: #fff;
-    }
-    .main-nav{
-      display: none;
-    }
-    /* *********************collapsable menu************************************ */
-     /*The hidden buttons*/
+ header .open-btn, .socials{
+      display: inline-flex;
+     }
      header .open-btn{
       display: inline-flex;
       margin-right: 40px;
