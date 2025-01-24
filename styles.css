@@ -738,6 +738,25 @@ transform: translateY(-3px);
     background-color:#ff1919;
     color: #fff;
   }
+    .appointment-container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactForm{
+    display: flex;
+    flex-direction: column; /* Arrange form elements vertically */
+    width: 300px; /* Adjust width as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .contactForm input{
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
 }
 
 @media (min-width:768px) {
