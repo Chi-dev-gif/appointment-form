@@ -683,9 +683,6 @@ transform: translateY(-3px);
     }
 }
 @media (max-width: 414px){
-    body{
-    padding: 0 5px;
-  }
   .logo, .image-logo{
     padding: 0 5px;
   }
