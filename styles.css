@@ -682,3 +682,28 @@ transform: translateY(-3px);
       display: none;
     }
 }
+@media (max-width: 414px){
+  .logoo {
+    width: 45px; /* Smaller logo on smaller screens */
+  }
+  .image-logo{
+    justify-content: space-evenly;
+  }
+  .image-logo h3{
+    font-size: 10px;
+  }
+  .image-logo p{
+    font-size: 9px;
+  }
+  .image-logo a{
+    width: 45px;
+    padding: 4px;
+    overflow: hidden;
+    font-size: 9px;
+    margin-right: 20px;
+  }  
+  .image-logo button:hover{
+    background-color:#ff1919;
+    color: #fff;
+  }
+}
