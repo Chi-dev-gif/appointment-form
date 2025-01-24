@@ -969,17 +969,16 @@ color: #d3d3d3;
     width: auto;
   }
   .testimonial-card{
-    width: 250px;
+    width: 298px;
     margin-left: -40px;
-    padding: 40px;
+    padding: 20px;
     margin-bottom: 10px;
-    font-size: 20px;
-    height: 400px;
+    font-size: 24px;
+    height: 600px;
   }
   .testimonial-content{
     width: fit-content;
-    padding: 0 30px;
-    
+    padding: 0 70px;
   }
   .testimonial-section h1{
     font-size: 30px;
