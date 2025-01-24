@@ -709,9 +709,6 @@ transform: translateY(-3px);
 
 
 @media (max-width: 414px){
-    .main-nav{
-      display: none;
-    }
   .logo, .image-logo{
     padding: 0 5px;
   }
@@ -738,17 +735,21 @@ transform: translateY(-3px);
     background-color:#ff1919;
     color: #fff;
   }
-    .appointment-container{
+  .menu-container{
+    position: absolute;
+    top: 72px;
+  }
+  .appointment-container{
     display: block;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
   }
   .contactForm{
     display: flex;
     flex-direction: column; /* Arrange form elements vertically */
     width: 300px; /* Adjust width as needed */
     padding: 20px;
-    border: 1px solid #ccc;
     border-radius: 5px;
   }
   .contactForm input{
@@ -757,19 +758,37 @@ transform: translateY(-3px);
     border: 1px solid #ddd;
     border-radius: 3px;
   }
- .left-section{
+  .left-section{
     width: auto;
   }
-     .right-section{
+  .right-section{
     display: flex;
     flex-direction: column; /* Arrange form elements vertically */
-    width: 300px;
-    max-width: 200px; /* Adjust width as needed */
+    width: 90%;
+    max-width: 335px;
     padding: 20px;
-    border: 1px solid #ccc;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactForm textarea{
+    width: 290px;
+    margin-bottom: 10px;
+  }
+  .testimonial{
+    width: 100%;
+    max-width: fit-content;
+    margin-top: 90px;
     border-radius: 5px;
   }
- 
+  
+  .testimonial-slider{
+    width: 335px;
+    padding: 40px -40px;
+  }
+  .testimonial-section .next{
+    margin-right: 35px;
+  }
 }
 
 @media (min-width:768px) {
