@@ -760,7 +760,16 @@ transform: translateY(-3px);
  .left-section{
     width: auto;
   }
-    
+     .right-section{
+    display: flex;
+    flex-direction: column; /* Arrange form elements vertically */
+    width: 300px;
+    max-width: 200px; /* Adjust width as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+ 
 }
 
 @media (min-width:768px) {
