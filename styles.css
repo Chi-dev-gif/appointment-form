@@ -620,7 +620,36 @@ transform: translateY(-3px);
 
 
 /***********************The Footer Sections Ends********************************/
- header .open-btn, .socials{
+@media (max-width: 768px) {
+    .logoo {
+      width: 65px; /* Smaller logo on smaller screens */
+    }
+    .image-logo{
+      justify-content: space-between;
+    }
+    .image-logo h3{
+      font-size: 12px;
+    }
+    .image-logo p{
+      font-size: 9px;
+    }
+    .image-logo a{
+      width: 60px;
+      padding: 4px;
+      overflow: hidden;
+      font-size: 9px;
+      margin-right: 20px;
+    }  
+    .image-logo button:hover{
+      background-color:#ff1919;
+      color: #fff;
+    }
+    .main-nav{
+      display: none;
+    }
+    /* *********************collapsable menu************************************ */
+     /*The hidden buttons*/
+     header .open-btn, .socials{
       display: inline-flex;
      }
      header .open-btn{
@@ -677,16 +706,12 @@ transform: translateY(-3px);
     }
 }
     /************************The hidden buttons for sliding menu*********************/
-@media (min-width:768px) {
-    .open-btn{
-      display: none;
-    }
-}
+
+
 @media (max-width: 414px){
   .logo, .image-logo{
     padding: 0 5px;
   }
-        
   .logoo {
     width: 45px; /* Smaller logo on smaller screens */
   }
@@ -709,5 +734,11 @@ transform: translateY(-3px);
   .image-logo button:hover{
     background-color:#ff1919;
     color: #fff;
+  }
+}
+
+@media (min-width:768px) {
+  .open-btn{
+    display: none;
   }
 }
