@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="logo">
+        <div class="image-logo">
+          <img src="logo.png" alt="Nursera logo" class="logoo">
+          <div class="image-logo-contact">
+            <h3>Jl. Sunset Road</h3>
+            <p>Kuta, Bali - 80361</p>
+          </div>
+          <div class="image-logo-contact">
+            <h3>Phone Number</h3>
+            <p>(+62)81 548 5612</p>
+          </div>
+            
+            <a href="#appointment">Make Appointment</a>
+            
+        </div>
+      </div>
+    
+      <!--Main Nav-->
+      <header>
+    
+        <!--768px Nav-->
+        <!-- Open Menu Button -->
+      <button class="open-btn" id="openMenuBtn">Menu</button>
+    
+      <!-- Collapsible Menu -->
+      <div class="menu-container" id="menu">
+        <button class="close-btn" id="closeMenuBtn">Close</button>
+        <ul>
+          <li><a href="/portfolio.html">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#appointment">Appointment</a></li>
+        </ul>
+      </div>
+    
+    <!---------------Main Nav---------------->
+        <nav class="main-nav">
+          
+          <ul class="nav-links">
+            <li><a href="/portfolio.html">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#appointment">Appointment</a></li>
+          </ul>
+        </nav>
+        <div class="socials">
+          <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        </div>
+      </header>
+
+     <!---------------Our Services(Why you can trust us)---------------->
+
+      <section id="services">
+        <h2 class="service-header">Why You Can Trust Us</h2>
+        <div class="service-container">
+          <h1>Why Choose Us</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+          <div class="card-container">
+              <div class="card">
+                  <img src="nurse and granny3.jpg" alt="Home Care">
+                  <div class="card-content">
+                      <h3>We are Certificated</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
+                      <a href="#">&rarr; LEARN MORE</a>
+                  </div>
+              </div>
+              <div class="card">
+                  <img src="nurse and granny4.jpg" alt="Senior Care">
+                  <div class="card-content">
+                      <h3>We are Professional</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
+                      <a href="#">&rarr; LEARN MORE</a>
+                  </div>
+              </div>
+              <div class="card">
+                  <img src="nurse and granny5.jpg" alt="Intensive Care">
+                  <div class="card-content">
+                      <h3>Many Years Of Experience</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
+                      <a href="#">&rarr; LEARN MORE</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </section>
+    
+      <!---------------------Appointment-------------------->
+        <section class="appointment" id="appointment">
+            <div class="appointment-container">
+                <div class="left-section">
+                    <img src="nurse and granny5.jpg" alt="Nurse">
+                </div>
+                <div class="right-section">
+                    <h1>Providing Quality Senior Care</h1>
+                    <form id="contactForm">
+                        <div class="input-group">
+                            <input type="text" id="client-name" name="name" placeholder="Name" required>
+                            <input type="email" id="client-email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="input-group">
+                            <select id="client-service" name="service" required>
+                                <option value="">Select</option>
+                                <option value="home-care">Home Care</option>
+                                <option value="medical-assistance">Medical Assistance</option>
+                                <option value="companionship">Companionship</option>
+                            </select>
+                        </div>
+                        <textarea id="client-message" name="message" placeholder="Message" required></textarea>
+                        <button class="submit-btn" type="submit" onclick="appointment()">SUBMIT BUTTON</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    <!---------------------Testimonials-------------------->
+        <section class="testimonial">
+          <div class="testimonial-section">
+            <h1>What Patient Say</h1>
+            <div class="testimonial-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">★★★★★</div>
+                        <p class="quote">99</p>
+                        <p class="testimonial-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <div class="user-info">
+                            <img src="man.jpg" alt="Anthony">
+                            <div class="user-text">
+                                <h3>Anthony</h3>
+                                <p>Doctor</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="testimonial-content">
+                        <div class="stars">★★★★★</div>
+                        <p class="quote">88</p>
+                        <p class="testimonial-text">
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        </p>
+                        <div class="user-info">
+                            <img src="man2.jpg" alt="Sarah">
+                            <div class="user-text">
+                                <h3>Sarah</h3>
+                                <p>Nurse</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="testimonial-content">
+                        <div class="stars">★★★★★</div>
+                        <p class="quote">77</p>
+                        <p class="testimonial-text">
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <div class="user-info">
+                            <img src="man.jpg" alt="John">
+                            <div class="user-text">
+                                <h3>John</h3>
+                                <p>Physician</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="prev" onclick="prevSlide()">&#10094;</button>
+                <button class="next" onclick="nextSlide()">&#10095;</button>
+            </div>
+    
+            <div class="world-map">
+                <img src="map-2-1024x576.png" alt="World Map">
+                <div class="location" style="top: 30%; left: 50%;"></div>
+                <div class="location" style="top: 65%; left: 30%;"></div>
+                <div class="location" style="top: 40%; left: 70%;"></div>
+            </div>
+        </div>
+        </section>
+
+        <!-----------------Footer------------------>
+<footer class="footer">
+  <div class="container">
+      <div class="footer-logo">
+          <img src="logo.png" alt="Logo">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.</p>
+      </div>
+
+      <div class="footer-info">
+          <p><span class="icon">📍</span> <strong>Hamburg Care, Hamburg Germany</strong></p>
+          <p><span class="icon">📞</span> <strong>(+49) 5678 1234</strong></p>
+          <p><span class="icon">📧</span> <strong>mail@nursee.com</strong></p>
+      </div>
+
+      <div class="footer-links">
+          <h4>Navigation</h4>
+          <ul>
+              <li><a href="/portfolio.html">Home</a></li>
+              <li><a href="#services">Service</a></li>
+              <li><a href="#appointment">Contact</a></li>
+          </ul>
+      </div>
+
+      <div class="footer-links">
+          <h4>Quick Link</h4>
+          <ul>
+              <li><a href="#appointment">Contact Us</a></li>
+              <li><a href="#faqs">FAQs</a></li>
+              <li><a href="#booking">Booking</a></li>
+          </ul>
+      </div>
+
+      <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+              <li><a href="/portfolio.html">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#appointment">Contact</a></li>
+          </ul>
+      </div>
+
+      <div class="footer-social">
+        <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+      </div>
+  </div>
+
+  <div class="footer-bottom">
+      <p>&copy; 2025 Nursera Template • All Rights Reserved</p>
+  </div>
+</footer>
+
+      
+        <script src="script.js"></script>
+      
+</body>
+</html>
