@@ -757,6 +757,10 @@ transform: translateY(-3px);
     border: 1px solid #ddd;
     border-radius: 3px;
   }
+ .left-section{
+    width: auto;
+  }
+    
 }
 
 @media (min-width:768px) {
