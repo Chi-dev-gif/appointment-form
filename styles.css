@@ -709,6 +709,9 @@ transform: translateY(-3px);
 
 
 @media (max-width: 414px){
+    .main-nav{
+      display: none;
+    }
   .logo, .image-logo{
     padding: 0 5px;
   }
