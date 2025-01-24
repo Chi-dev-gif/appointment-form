@@ -650,7 +650,7 @@ transform: translateY(-3px);
      /*The hidden buttons*/
      header .open-btn{
       display: inline-flex;
-      margin-right: 50%;
+      margin-right: 40px;
     }
     .appointment-container {
         display: block;
