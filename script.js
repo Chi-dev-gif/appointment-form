@@ -90,7 +90,7 @@ function appointment() {
     };
 
     try {
-      const response = await fetch("https://script.google.com/macros/s/AKfycbxobNiFySMLe2ezBqCspdAt-jXKnJfdYbnVxlow5A8/dev", {
+      const response = await fetch("https://script.google.com/macros/s/AKfycbwmB1aktEjMuA5QrNGy_36_cXARKx61pXqZdKfZp2S5hDyUtbr8hAYnw0cULSpnh1k7/exec", {
         method: "POST",
         body: JSON.stringify(formData),
         headers: {
