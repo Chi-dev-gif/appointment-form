@@ -22,7 +22,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  padding: 0 2px;
+  padding: 0 10px;
   box-sizing: border-box;
   background-color: #2d3f43;
   overflow-x: hidden;
@@ -36,7 +36,7 @@ body {
 
 .image-logo{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   position: fixed;
   height: 70px;
@@ -70,8 +70,8 @@ body {
   background-color:  #2d3f43;
   color: #fff;
   font-size: 14px;
-  padding: 5px 20px;
-  margin-left: 0;
+  padding: 5px 5px;
+  margin-right: 2px;
   cursor: pointer;
   width: 75px;
   transition: transition 2s ease-in-out;
@@ -873,15 +873,15 @@ color: #d3d3d3;
   }
   .testimonial-card{
     width: 400px;
-    margin-left: -30px;
+    margin-left: -50px;
     padding: 20px;
     margin-bottom: 10px;
     font-size: 24px;
-    height: 500px;
+    height: 400px;
   }
   .testimonial-content{
     width: fit-content;
-    padding: 0 50px;
+    padding: 0 10px;
     
   }
   .testimonial-section h1{
@@ -913,11 +913,12 @@ color: #d3d3d3;
     display: none;
   }
   .logoo {
-      width: 50px;
+      width: 100px;
   }
   .image-logo a{
     font-size: 12.2px;
-    padding: 2px;
+    padding:2px 0;
+    margin-right: 2px;
   }
   .image-logo-contact{
     font-size: 9px;
@@ -925,7 +926,7 @@ color: #d3d3d3;
   #services{
     margin-bottom: 100px;
   }
-   .appointment{
+  .appointment{
     margin-top: 40px;
     margin-bottom: 80px;
     margin-left: -10px;
@@ -975,7 +976,7 @@ color: #d3d3d3;
     margin-left: -40px;
     padding: 20px;
     margin-bottom: 10px;
-    font-size: 18px;
+    font-size: 24px;
     height: 600px;
   }
   .testimonial-content{
@@ -990,7 +991,7 @@ color: #d3d3d3;
  .testimonial-text{
   font-size: 12px;
  }
-  .service-container{
+ .service-container{
   margin: 0 -10px;
  }
  .card-container{
@@ -1004,11 +1005,11 @@ color: #d3d3d3;
   .card{
     width: 350px;
   }
-   .location{
+  .location{
     width: 5px;
     height: 5px;
+    
   }
-  
 }
 @media (min-width:768px) {
   .open-btn{
